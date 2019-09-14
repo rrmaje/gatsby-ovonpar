@@ -1,20 +1,21 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h1>Hi people</h1>
-    <p>Welcome to your new Gatsby site.</p>
-    <p>Now go build something great.</p>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
+    <div style={{marginBottom:20}}>
+    <div style={{paddingBottom:5}}>
+    <h2 style={{display:`inline`}}>Ovonpar Stock Ticker</h2> <p style={{paddingTop:5}}><strong> Marketplace for standardized goods</strong></p>
     </div>
-    <Link to="/page-2/">Go to page 2</Link>
+    <p>Start building market for your supply or distrubution chain.</p>
+    <p>Find latest quotes of the goods.</p>
+    <p>Enter orders to match best bids and offers.</p>
+    <p>Try Ovonpar Stock Ticker.</p>
+    <a href="http://35.204.16.24:3000/signup">SignUp</a>
+    </div>
   </Layout>
 )
 

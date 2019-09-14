@@ -1,0 +1,22 @@
+input {
+    display: block;
+    padding: 5px;
+    margin-bottom: 5px;
+    max-width: 600;
+    width: 70%;
+}
+textarea {
+    display: block;
+    padding: 5px;
+    margin-bottom: 5px;
+    max-width: 600;
+    width: 70%;
+}
+
+button {
+    display: block;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+
