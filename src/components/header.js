@@ -15,7 +15,7 @@ const ListLink = props => (
 const Header = ({ siteTitle }) => (
   <header
     style={{
-      background: `#2c6556`,
+      background: `#6049b1`,
       marginBottom: `1.45rem`,
     }}
   >
@@ -24,7 +24,7 @@ const Header = ({ siteTitle }) => (
       style={{
         margin: `0 auto`,
         maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
+        padding: `1.55rem 1.0875rem`,
       }}
     >
 
@@ -37,7 +37,7 @@ const Header = ({ siteTitle }) => (
       </Link>
 
 
-      <ul style={{ listStyle: `none`, float: `right` }}>
+      <ul style={{ listStyle: `none`, float: `right`}}>
         <ListLink to="/">Get Started</ListLink>
         <a style={{
           display: `inline-block`, marginRight: `1rem`,

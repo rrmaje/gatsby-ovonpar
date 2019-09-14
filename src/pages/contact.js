@@ -25,7 +25,7 @@ const Contact = () => (
     <textarea name="message" id="message" rows="5" />
         </label>
         <button type="submit" style={{maxWidth: `4rem`, float: `left` }}>Send</button>
-        <input type="reset" value="Clear" style={{ maxWidth: `3rem`, float: `left`, marginLeft: 20, maringBottom: 30 }} />
+        <input type="reset" value="Clear" style={{ maxWidth: `3.2rem`, float: `left`, marginLeft: 18, maringBottom: 30 }} />
       </form>
     </div>
   </Layout>
