@@ -38,7 +38,7 @@ const Header = ({ siteTitle }) => (
 
 
       <ul style={{ listStyle: `none`, float: `right`}}>
-        <ListLink to="/">Get Started</ListLink>
+        <ListLink to="/get-started">Get started</ListLink>
         <a style={{
           display: `inline-block`, marginRight: `1rem`,
           color: `white`,
