@@ -7,7 +7,7 @@ const GetStarted = () => (
     <div style={{ marginBottom: 20 }}>
       <h2>Learn more about the Service</h2>
       <h4>Eligibility</h4>
-      <p>Ovonpar Stock Ticker delivers service to facitate spot trading of standardized goods:</p>
+      <p>Ovonpar Stock Ticker delivers service to facilitate spot trading of standardized goods:</p>
       <ul>
         <li>Merchandise for which specification can be developed to streamline matching of demand and supply</li>
         <li>Goods that are usually offered by more than one supplier - seller
@@ -18,7 +18,7 @@ const GetStarted = () => (
       <h4>Market Data</h4>
       <p>For each enlisted merchandise, Service is maintainig an order book.
         You get access to current information about Best Bids and Offers as well as
-        latest price and quanity for which bueyr's and seller's orders have been matched - quotes.</p>
+        latest price and quantity for which buyer's and seller's orders have been matched - quotes.</p>
       <p>You can enter an order to buy or sell any quoted merchandise.
          Unless it is matched with another resting or incoming order, you can cancel the order.</p>
       <p>Service is rendered in sessions. Each day a new session starts.
