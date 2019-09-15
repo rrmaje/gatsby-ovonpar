@@ -6,7 +6,7 @@ import styles from "../components/contact.module.css"
 const Contact = () => (
   <Layout>
     <div style={{ display: `block`, marginBottom: `3.45rem` }}>
-      <form method="post"  netlify-honeypot="bot-field" data-netlify="true" style={{ maxWidth: 600 }}>
+      <form method="post" name="contact" netlify-honeypot="bot-field" data-netlify="true" style={{ maxWidth: 600 }}>
         <input type="hidden" name="bot-field" />
         <label>
           Name
