@@ -1,7 +1,7 @@
 import React from "react"
 
 import Layout from "../components/layout"
-import styles from "../components/contact.module.css"
+import "../components/contact.module.css"
 
 const Contact = () => (
   <Layout>
@@ -25,7 +25,7 @@ const Contact = () => (
     <textarea name="message" id="message" rows="5" />
         </label>
         <button type="submit" style={{maxWidth: `4rem`, float: `left` }}>Send</button>
-        <input type="reset" value="Clear" style={{ maxWidth: `3.2rem`, float: `left`, marginLeft: 18, maringBottom: 30 }} />
+        <input type="reset" value="Clear" style={{ maxWidth: `4rem`, float: `left`, marginLeft: 18, maringBottom: 30 }} />
       </form>
     </div>
   </Layout>

@@ -1,0 +1,7 @@
+[
+    {
+        "title": "Eggs in shell",
+        "slug": "shell-eggs",
+        "description": "<table><tbody><tr><td>Product</td> <td>Egg in shell</td> </tr> <tr> <td>Trading Unit</td> <td>100KG</td> </tr> <tr> <td>Price Quote Unit </td><td>PLN/100KG </td> </tr> <tr> <td>Minimum Tick Size </td> <td>0.01 PLN/100KG </td> </tr><tr> <td>Trading Hours </td> <td>8:00 a.m. - 17 a.m. CET Monday to Friday</td> </tr> <tr> <td>Deliverable Grades </td> <td>Refer to - Commission Regulation (EC) No 589/2008 of 23 June 2008 laying down detailed rules for implementing Council Regulation (EC) No 1234/2007 as regards marketing standards for eggs </td> </tr> <tr> <td>Delivery Point </td> <td>The delivery warehouses of egg designated by the buyer</td> </tr> <tr> <td>Delivery Form </td> <td>Physical delivery </td> </tr> <tr> <td>Ticker Symbol </td> <td>L-class, M-class, S-class</td> </tr> </tbody> </table>"
+    }
+]

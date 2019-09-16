@@ -2,7 +2,6 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Image from "./image"
-import { isNullOrUndefined } from "util";
 
 const ListLink = props => (
   <li style={{ display: `inline-block`, marginRight: `1rem` }}>
@@ -37,12 +36,13 @@ const Header = ({ siteTitle }) => (
       </Link>
 
 
-      <ul style={{ listStyle: `none`, float: `right`}}>
+      <ul style={{ listStyle: `none`, float: `right` }}>
         <ListLink to="/get-started">Get started</ListLink>
         <a style={{
           display: `inline-block`, marginRight: `1rem`,
           color: `white`,
         }} href="http://35.204.16.24:3000">Login</a>
+        <ListLink to="/products/">Products</ListLink>
         <ListLink to="/contact/">Contact</ListLink>
       </ul>
 
