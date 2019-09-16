@@ -21,8 +21,6 @@ const GetStarted = () => (
         latest price and quantity for which buyer's and seller's orders have been matched - quotes.</p>
       <p>You can enter an order to buy or sell any quoted merchandise.
          Unless it is matched with another resting or incoming order, you can cancel the order.</p>
-      <p>Service is rendered in sessions. Each day a new session starts.
-         Unmatched orders from previous sessions are not carried forward/are automatically discarded.</p>
       <h4>Market Reporting</h4>
       <p>Any entered order that has been matched, will be instantly listed in the Market Reporting.
         You will be informed by email about the details of the order including contact email of the buyer or seller.

@@ -4,6 +4,10 @@ input {
     margin-bottom: 5px;
     max-width: 600;
     width: 70%;
+    overflow-wrap: normal;
+}
+label {
+    overflow-wrap: normal;
 }
 textarea {
     display: block;
