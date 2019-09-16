@@ -4,6 +4,7 @@ import Layout from "../components/layout"
 
 const GetStarted = () => (
   <Layout>
+    <SEO title="Get started" />
     <div style={{ marginBottom: 20 }}>
       <h2>Learn more about the Service</h2>
       <h4>Eligibility</h4>

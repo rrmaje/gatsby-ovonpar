@@ -12,6 +12,7 @@ const ListLink = props => (
 
 const Products = () => (
 <Layout>
+<SEO title="Products" />
   <div style={{ marginBottom: 20 }}>
     <h2>Currently listed products</h2>
     {
