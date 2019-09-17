@@ -10,8 +10,10 @@ const IndexPage = () => (
     <div style={{paddingBottom:5}}>
     <h2 style={{display:`inline`}}>Ovonpar Stock Ticker</h2> <p style={{paddingTop:5}}><strong> Marketplace for standardized goods</strong></p>
     </div>
-    <p>Start building market for your supply or distrubution chain.</p>
-    <p>Find latest quotes of the goods.</p>
+    <p>Centralize purchasing and selling of products.</p>
+    <p>Build market for the products in your supply and distribution chains.</p>
+    <p>Create flexible supply and distribution chains responsive to changes in demand and supply.</p>
+    <p>Find latest quotes of the products.</p>
     <p>Enter orders to match best bids and offers.</p>
     <p>Try Ovonpar Stock Ticker.</p>
     <a href="http://35.204.16.24:3000/signup">SignUp</a>
