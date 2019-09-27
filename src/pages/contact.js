@@ -26,6 +26,7 @@ const Contact = () => (
         </label>
         <button type="submit" style={{maxWidth: `4rem`, float: `left` }}>Send</button>
         <input type="reset" value="Clear" style={{ maxWidth: `4rem`, float: `left`, marginLeft: 18, maringBottom: 30 }} />
+	<input type="hidden" name="form-name" value="contact" />
       </form>
     </div>
   </Layout>
