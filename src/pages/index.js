@@ -16,7 +16,7 @@ const IndexPage = () => (
     <p>Find latest quotes of the products.</p>
     <p>Enter orders to match best bids and offers.</p>
     <p>Try Ovonpar Stock Ticker.</p>
-    <a href="http://35.204.16.24:3000/signup">SignUp</a>
+    <a href={`${process.env.GATSBY_OST_URL}/signup`}>SignUp</a>
     </div>
   </Layout>
 )

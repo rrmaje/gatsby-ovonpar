@@ -29,7 +29,7 @@ const GetStarted = () => (
         Purchasing or selling agreements are not managed by the Service. You can finalize contractual provisions outside of the Service.
       </p>
       <p>Please contact us using Contact form if you would like to enlist new merchandise. We will review its eligibility and if no legal constraints, enlist it so that you could start building market for goods of your interest.</p>
-      <p>Try Ovonpar Stock Ticker and <a href="http://35.204.16.24:3000/signup">sign up</a> for the account.</p>
+      <p>Try Ovonpar Stock Ticker and <a href={`${process.env.GATSBY_OST_URL}/signup`}>sign up</a> for the account.</p>
     </div>
   </Layout>
 )

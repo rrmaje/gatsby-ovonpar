@@ -41,7 +41,7 @@ const Header = ({ siteTitle }) => (
         <a style={{
           display: `inline-block`, marginRight: `1rem`,
           color: `white`,
-        }} href="http://35.204.16.24:3000">Login</a>
+        }} href={`${process.env.GATSBY_OST_URL}`}>Login</a>
         <ListLink to="/products/">Products</ListLink>
         <ListLink to="/contact/">Contact</ListLink>
       </ul>
