@@ -24,8 +24,8 @@ const Contact = () => (
           Message
     <textarea name="message" id="message" rows="5" />
         </label>
-        <button type="submit" style={{maxWidth: `4rem`, float: `left` }}>Send</button>
-        <input type="reset" value="Clear" style={{ maxWidth: `4rem`, float: `left`, marginLeft: 18, maringBottom: 30 }} />
+        <button type="submit" style={{float: `left` }}>Send</button>
+        <input type="reset" value="Clear" style={{ float: `left`, marginLeft: 10}} />
 	<input type="hidden" name="form-name" value="contact" />
       </form>
     </div>
